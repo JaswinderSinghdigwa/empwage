@@ -6,7 +6,8 @@ Notpresent=1
 
 if [ ((RANDOM%2 )) -eq $Present ]
 then
-echo "employee is present"
+empHr=8
+salary=$emphr*20
 else
 echo "employee is not  present"
 fi
